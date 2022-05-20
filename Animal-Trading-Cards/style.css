@@ -1,37 +1,43 @@
+/* add your CSS here */
 #container {  
-    border-style: solid;
+    border: 5px solid gray;
     background-color: bisque;
     padding: 10px;
-    box-shadow: 10px 5px #666;
-    
+    box-shadow: 10px 5px #666;    
+}
+
+img {
+    width: 300px;
+  	height: 200px;
+    margin: 1em;
+    border: 5px solid gray; 
+  	
 }
 
 #Interesting-Facts {
     font-style: italic;
-
+  	border: 5px solid gray; 
+   
 }
 
 span {
     font-weight: bold;
 }
 
-#animal-list{
+h3 {
+  padding: 10px;
+  text-align: center;
+  border: 5px solid gray;
+}
+
+#remove-dot{
    list-style-type: none;
 }
 
 
-img {
-    width: 300px;
-    border-style: solid;
-}
-
-.animal-information {
-    border-style: solid;
-    padding: 5px;
-
-}
-#animal-description{
+#animal-description {
     padding: 10px;
     font-style: normal;
-
+	border: 5px solid gray;
 }
+
