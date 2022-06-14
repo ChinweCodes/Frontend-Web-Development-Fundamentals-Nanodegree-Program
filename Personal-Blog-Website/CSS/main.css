@@ -1,0 +1,14 @@
+@import "B-style.css";
+@import "B-nav.css";
+@import "B-post.css";
+
+body{
+    background-color:aqua
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 3px black;
+}
