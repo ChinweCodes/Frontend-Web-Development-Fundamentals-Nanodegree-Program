@@ -14,11 +14,7 @@ window.addEventListener('load', (event) => {
         var table = document.getElementById('pixelCanvas');
       //This clears the table
         table.innerHTML = "";
-        //  table = <table pixalCanvas></table>
-        //  i = 1
-        //      row = <tr></tr>
-        //      j = 1
-        //           col  =  <td></td>
+        
         // This loop creates a row of cells.
         for (var i = 1; i <= rows; i++) {
           var row =  document.createElement("tr");
